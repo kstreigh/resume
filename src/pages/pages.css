@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  font-size: 15px;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.left-half {
+  width: 40%;
+  padding: 30px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #895ea8;
+}
+
+.right-half {
+  width: 60%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social-container a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.social-container a:visited {
+  color: white;
+}
+
+.social-container a:hover {
+  color: white;
+}
+
+.social-container a:active {
+  color: white;
+}
+
+.icon{
+  margin-right: 5px;
+}
+
+.each-slide span {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+}
+
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 2%;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}

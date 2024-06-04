@@ -1,0 +1,59 @@
+.container2 {
+    background-color: #895ea8;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+  }
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b305c;
+  }
+  
+  .topnav .left,
+  .topnav .right {
+    display: flex;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .list1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Ensure text is aligned left within centered container */
+  }
+  
+  .list1 li {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+.list1 li::before {
+    content: '•'; /* Use content property to add bullet */
+    margin-right: 8px; /* Adjust space between bullet and text */
+    color: #f2f2f2; /* Bullet color */
+  }
+
