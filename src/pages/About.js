@@ -11,7 +11,9 @@ const About = () => {
       </div>
       <div className='right-half'>
         <h1>About Me</h1>
-        Hi, I'm Kelly. I'm a software engineering graduate with a strong foundation in analytical thinking and collaborative problem-solving. I'm looking to utilize my diverse creative skills and educational background along with a keen eye for detail to excel as an entry-level software engineer. I enjoy painting, singing, and learning useless information.
+        Hi, I’m Kelly. I work as a Systems Analyst and spend my free time building full-stack projects. I’m comfortable working across both front-end and back-end technologies, which allows me to understand and contribute to the entire development lifecycle. I’m always looking to learn new tools and approaches to improve the quality and efficiency of my work.
+        My strengths include problem-solving and adapting quickly to new challenges or technologies. I’m detail-oriented and focused on delivering solutions that meet real user needs. I also value clear communication and collaboration, as I believe they are essential to any successful project.
+        Outside of technology, I enjoy painting, crafting, and cooking — activities that help me balance my technical work with creative outlets.
         <h2>My Education</h2>
         <p>Indiana University, Bloomington, IN <br /> 
         Bachelor of Science in Software Engineering (BSSE) <br/>
@@ -23,10 +25,10 @@ const About = () => {
             <li>Time Management</li>
             <li>Problem-Solving</li>
         <h2>My Technical Skills</h2>
-            <li>Java, JavaScript, Python, C, Swift, SQL</li>
-            <li>Visual Studio, IntelliJ IDE, Xcode, Postman, GitHub</li>
-            <li>NodeJS, ReactJS, Express, CSS, JSON, UIKit, SwiftUI</li>
-            <li>MongoDB, PostgreSQL</li>
+            <li>Java, JavaScript, Python, C#, Swift, SQL</li>
+            <li>API, XML, JSON</li>
+            <li>ASP.NET, NodeJS, ReactJS, Express, CSS, SwiftUI</li>
+            <li>Azure, Jira</li>
             <li>Agile (Scrum)</li>      
         </div>
     </div>
